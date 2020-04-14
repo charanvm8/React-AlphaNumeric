@@ -34,7 +34,7 @@ function App() {
         cloned.totalResults = res.totalResults;
         cloned.showError = false;
         cloned.errorMessage = "";
-        if(pageNumber===0){
+        if(pageNumber===1){
           cloned.pageFirst = 1;
           cloned.pageSecond = 2;
           cloned.pagethird = 3;
