@@ -21,7 +21,7 @@ function App() {
   }
   function onSubmit(event) {
     event.preventDefault();
-    updateResults(0);
+    updateResults(1);
   }
 
   function updateResults(pageNumber){
