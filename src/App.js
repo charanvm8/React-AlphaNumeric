@@ -7,7 +7,7 @@ function App() {
   const [state, setState] = useState({
     results: [],
     userInput: "",
-    pageNumber: 0,
+    pageNumber: 1,
     totalPages: 0,
     totalResults: 0,
     showError: false,
@@ -46,7 +46,7 @@ function App() {
         cloned.showError = true;
         cloned.errorMessage = "" + error;
         cloned.results = [];
-        cloned.pageNumber = 0;
+        cloned.pageNumber = 1;
         cloned.totalPages = 0;
         cloned.totalResults = 0;
         cloned.pageFirst = 1;
